@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,900;1,900&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.bgimg {
+    background-image: url(images/backgroud\ img.png);
+    max-width: 1440px;
+    margin: 0 auto;
+    /* height: 90vh; */
+}
+
+.header {
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 87px;
+    padding-right: 273px;
+    padding-top: 39px;
+
+
+}
+
+.ul-items {
+
+    display: flex;
+    gap: 69px;
+    padding-left: 250px;
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    color: #FFFFFF
+}
+
+.main-heading {
+    /* max-width: 707px;
+    margin: 0 auto; */
+    /* height: 150px; */
+    font-family: "Big Shoulders Display", sans-serif;
+    font-style: extra-bold;
+    font-size: 80px;
+    line-height: 72px;
+    /* line-height: 75%; */
+    text-align: left;
+    vertical-align: middle;
+    /* margin-bottom: 6px; */
+    color: #FFFFFF;
+    padding-left: 87px;
+    padding-top: 139px;
+    padding-bottom: 331px;
+}
+
+/* ----------------------------------------------about-us---------------- */
+
+.about-us {
+    background-color: #689593;
+    height: 293px;
+    /* padding-top: 0px; */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.para-about-us {
+    max-width: 1036px;
+    margin: 0 auto;
+    height: 81px;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-left: 188px;
+    padding-right: 219px;
+    padding-top: 29px;
+    padding-bottom: 87px;
+}
+
+/* ------------------------------------------------network-section------- */
+
+.network-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 113px;
+
+}
+
+.network-container {
+    display: flex;
+    gap: 245px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.left {
+    margin-top: 77px;
+}
+
+.heading-network {
+    Font-family: Big Shoulders Display;
+    Font-style: ExtraBold;
+    Font-size: 60px;
+    Line-height: 72px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Center;
+    margin-bottom: 20px;
+    /* max-width: 900px; */
+}
+
+.para1-network {
+    Font-family: Manrope;
+    Font-style: Regular;
+    Font-size: 20px;
+    Line-height: 27px;
+    /* Line-height: 100%; */
+    text-align: Left;
+    Vertical-align: Center;
+    color: #666666;
+    padding-bottom: 64px;
+}
+
+.btn {
+    background-color: #212020;
+    Font-family: Manrope;
+    Font-style: SemiBold;
+    Font-size: 20px;
+    Line-height: 27px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Center;
+    color: #FFFFFF;
+    padding: 14px 68px;
+    border-radius: 8px;
+    border: none;
+}
+
+.right {
+    margin-top: 103px;
+}
+
+.zoned-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #212020;
+}
+
+.zoned-container {
+    display: flex;
+    gap: 247px;
+    padding-left: 100px;
+    padding-right: 35px;
+}
+
+.zoned-left {
+    margin-top: 64px;
+}
+
+.zoned-para {
+    font-family: 'Inter', sans-serif;    
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 24px;
+    Line-height: 124%;
+    text-align: Left;
+    Vertical-align: Top;
+    Letter-spacing: -0.1px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 12px 18px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.14);
+    border: none;
+    width: 220px;
+}
+
+.zoned-btn {
+    padding: 12px 18px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    width: 99px;
+}
+
+/* ------------------------------------------unstoppable--------------------- */
+.unstopable {
+    background-image: url(images/footerlogo.png);
+    /* width: 1214.02px;
+    height: 452.23px; */
+    /* background-color:  rgba(0, 0, 0, 0.08); */
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.h1-unstopable{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    vertical-align: top;
+    /* margin-bottom: 6px; */
+    color: #212020;
+    background-color: #ffffff;
+    padding-top: 96px;
+    padding-bottom: 60px;
+
+}
+.btn-unstopable{
+
+    align-items: center;
+    justify-content: center;
+}
+
+.btn3 {
+    background-color: #212020;
+    Font-family: Manrope;
+    Font-style: SemiBold;
+    Font-size: 20px;
+    Line-height: 27px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Center;
+    color: #FFFFFF;
+    padding: 14px 68px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 580px;
+
+    margin-bottom: 60px;
+    /* margin-right: 600px; */
+}
+
+/* -----------------------------footer---------------- */
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #212020;
+    display: flex;
+    padding-bottom: 60px;
+
+}
+
+.p3 {
+    font-family: Manrope;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+    padding-left: 275px;
+    padding-top: 64px;
+}
+.p4{
+    font-family: Manrope;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+    padding-left: 27px;
+    padding-top: 37px;
+}
+.vertical-line{
+padding-left: 92px;
+padding-right: 92px;
+width: 1px;
+height: 30px;
+padding-top: 150px;
+}
